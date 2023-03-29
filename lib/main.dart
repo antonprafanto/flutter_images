@@ -36,7 +36,9 @@ class Home extends StatelessWidget {
               //fit: BoxFit.cover,
               //fit: BoxFit.fill,
               fit: BoxFit.fitWidth,
-              image: AssetImage("assets/enaknya.jpg"),
+              image: //AssetImage("assets/enaknya.jpg"),
+                  NetworkImage(
+                      "https://images.unsplash.com/photo-1679939099437-5577669eebab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"),
             )),
       )),
     );
